@@ -25,6 +25,7 @@ public class Login extends JFrame implements ActionListener{
         JLabel lblpassword = new JLabel("Password");
         lblpassword.setBounds(40, 70, 100, 30);
         add(lblpassword);
+        //add lib password
         
         tfpassword = new JPasswordField();
         tfpassword.setBounds(150, 70, 150, 30);
